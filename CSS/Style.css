@@ -10,7 +10,7 @@
  }
 
  .NAQ-navbarN  a {
- 	color: black !important;
+ 	color: orange!important;
  }
 
  .NAQ-carousel{
@@ -49,6 +49,13 @@ footer{
 .Background img{
    width: auto;
    height: 600px;
+
+ }
+
+
+ 
+ .nav-link{
+  text-align: right;
 
  }
 }
