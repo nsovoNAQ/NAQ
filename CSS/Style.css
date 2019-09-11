@@ -25,18 +25,12 @@
   	opacity: 0.85; 
   }
 
-<<<<<<< HEAD
-  #Contacts-NAQc{
-  background:url(Background/BackGjpg);
-=======
-  #Contacts-NAQc .container{
-  background-image:url(Images/8.jpg);
-  background-size:cover;
->>>>>>> 6ca4d40a817dd22fd7df27b28ea19e5cdd636ed8
-  padding:40px;
+ .Background {
+   background-image:url('../Images/BackGjpg');
 }
 
 footer{
+
   padding:30px;
 }
 
