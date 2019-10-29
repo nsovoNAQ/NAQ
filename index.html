@@ -175,21 +175,33 @@
           <div class="container">
             <div class="row">
               <div class="col-md-5 col-sm-5">
-                
-                 <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+              <form name="contact" method="POST" data-netlify="true">
+                  <p>
+                <div class="form-group">
+                   <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                  </p>
+                  <p>
+                </div>
+                  <label for="exampleFormControlInput1 text-white"><b class=" text-white">Email address</b></label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                </p>
+                <p>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"><b class=" text-white">Massage</b></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                </p>
+                <p>
+                 <button type="submit" class="btn btn-primary">Send</button>
+                 </p>
+              </form>
               </div>
                <div class="col-md-4 col-sm-4">
 
